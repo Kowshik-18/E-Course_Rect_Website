@@ -7,12 +7,15 @@ const AboutUs = () => {
     return (
         <div className="pt-5">
             <Container className="px-5 mx-5">
+                {/* Main about Us  */}
                 <Stack gap={4} className="mx-5 px-5 mb-5 text-center">
                     <small className="fw-bold">ABOUT OUR E-COURSE</small>
                     <h1>
                         We're inspiring the next <span className="fw-bold">generation</span> of the <span className="fw-bold">brightest minds</span> to get proper knowledge by E-Learning
                     </h1>
                 </Stack>
+
+                {/* Second part of about Us */}
                 <Stack gap={5} className="mt-5 pt-5">
                     <h2 className="title">Change careers courses <br />
                         Thinking about a career change?</h2>

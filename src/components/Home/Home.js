@@ -22,6 +22,7 @@ const Home = () => {
 
     return (
         <div>
+            {/* top part  */}
             <article className="top-part py-5">
                 <Container className="py-5">
                     <Stack direction="horizontal">
@@ -41,6 +42,8 @@ const Home = () => {
                     </Stack>
                 </Container>
             </article>
+
+            {/* features part */}
             <article className="p-5 mt-5">
                 <Stack direction="horizontal" gap={3} className="features mx-5 mt-4">
                     <Card className="card-fix">
@@ -78,6 +81,8 @@ const Home = () => {
                     </Card>
                 </Stack>
             </article>
+
+            {/* propular course part  */}
             <article className="my-5 py-5">
                 <Container>
                     <div className="d-flex justify-content-between mb-4 px-4">
