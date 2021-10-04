@@ -1,0 +1,59 @@
+.top-part {
+  background-color: #e1eee7;
+  font-weight: 500;
+}
+
+.top-info small {
+  background-color: #c9f2e0;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.top-info small span {
+  background-color: #3cd594;
+  color: white;
+  border-radius: 9px;
+}
+
+.top-info h1 {
+  font-weight: 800;
+  font-size: 55px;
+}
+
+.features {
+  text-align: center;
+}
+
+.card-fix {
+  width: 150vh;
+  border: none;
+}
+
+.title-card1 {
+  background-color: #ff8345;
+  width: 12vh;
+  height: 12vh;
+  color: white;
+  font-size: 35px;
+}
+.title-card2 {
+  background-color: #3cd594;
+  width: 12vh;
+  height: 12vh;
+  color: white;
+  font-size: 35px;
+}
+.title-card3 {
+  background-color: #fcc46f;
+  width: 12vh;
+  height: 12vh;
+  color: white;
+  font-size: 35px;
+}
+
+.btn-regular {
+  background-color: #3cd594;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

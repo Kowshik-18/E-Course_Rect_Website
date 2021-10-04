@@ -1,0 +1,18 @@
+.course-card {
+  width: 55vh;
+  height: 65vh;
+  border-radius: 15px;
+}
+
+.card-top h6 {
+  background-color: #d8f7e8;
+  padding: 10px;
+  border-radius: 15px;
+  color: #3cd594;
+}
+
+.card-top p {
+  color: #3cd594;
+  font-weight: 700;
+  font-size: 20px;
+}
