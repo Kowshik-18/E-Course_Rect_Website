@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row, Stack } from 'react-bootstrap';
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiCoursera } from "react-icons/si";
+import './Footer.css';
 
 const Footer = () => {
     return (
@@ -13,10 +14,10 @@ const Footer = () => {
                             <span className="logo"><SiCoursera /> E-Courses</span>
                             <div>
                                 <p>Follow Our Social Media</p>
-                                <Stack direction="horizontal" gap={2}>
-                                     <BsFacebook />
-                                     <BsInstagram />
-                                     <BsLinkedin />
+                                <Stack direction="horizontal" gap={3} className="social-icon">
+                                     <BsFacebook className="footer-icon1" />
+                                     <BsInstagram className="footer-icon2" />
+                                     <BsLinkedin className="footer-icon3" />
                                 </Stack>
                             </div>
                         </Stack>

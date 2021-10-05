@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Image, Stack } from 'react-bootstrap';
+import Rating from 'react-rating';
 import customer from '../images/2968304-removebg-preview.png';
 import person from '../images/person.jpg';
 
@@ -19,6 +20,11 @@ const Review = () => {
                             <Stack gap={1} className="mt-3">
                                 <h4>Mick Perry</h4>
                                 <p>Student</p>
+                                <Rating
+                                    initialRating={4.6}
+                                    emptySymbol="far fa-star icon-color"
+                                    fullSymbol="fas fa-star icon-color"
+                                    readonly></Rating>
                             </Stack>
                         </Stack>
                     </Stack>

@@ -1,6 +1,6 @@
 .course-card {
   width: 55vh;
-  height: 65vh;
+  height: 70vh;
   border-radius: 15px;
 }
 
@@ -15,4 +15,22 @@
   color: #3cd594;
   font-weight: 700;
   font-size: 20px;
+}
+
+.bottom-card {
+  border: none;
+}
+
+.icon-color {
+  color: gold;
+}
+
+.cart-icon {
+  color: white;
+  background-color: #3cd594;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+  border-radius: 50%;
 }
